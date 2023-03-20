@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smooothing: grayscale;
+}
+
+body {
+    font-family: 'Spectral', serif;
+    text-align: center;
+    background-image: url(https://i.ibb.co/Nn2fcqt/pexels-pixabay-326268oioioi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    color: #EBF1FB;
+    display: grid;
+    place-content: center;
+}
+
+h1 {
+    font-family: 'Beth Ellen', cursive;
+    color: #EBF1FB;
+    font-weight: 400px;
+    font-size: 64px;
+    line-height: 120px;
+}
+
+h1 span {
+    color: #5EEAD4
+}
+
+P {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 72px
+}
+
+a {
+    color: #EBF1FB;
+    padding: 16px 32px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+a:hover,
+.primary {
+    background: #5EEAD4;
+    border-radius: 8px;
+    color: #0b0c0e;
+    text-decoration: none;
+}
